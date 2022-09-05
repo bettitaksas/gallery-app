@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 600px;
+    display: none;
+}
+
+.inner {
+    position: relative;
+}
+
+.current {
+    display: inline-block;
+}
+
+.fa-circle-left {
+    float: left;
+}
+
+.fa-circle-right {
+    float: right;
+}
+
+i {
+    font-size: xx-large;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    margin: 10px;
+}
+
